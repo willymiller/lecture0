@@ -1,3 +1,5 @@
+$fontcolor: #ad039c;
+
 @media (max-width: 500px){
 	body {
 		background-color: #e8b0e2; 
@@ -7,18 +9,18 @@
 .titulo_seccion {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	color: #ad039c;
+	color: $fontcolor;
 }
 
 .titulo_nota {
-	color: #ad039c;
+	color: $fontcolor;
 }
 
 #tabla_titulo {
 	margin-bottom: 5px;
 	font-family: : Arial, Helvetica, sans-serif;
 	font-size: 25px;
-	color: #ad039c;
+	color: $fontcolor;
 }
 
 #tabla_horarios{
@@ -46,7 +48,7 @@ th, td {
 }
 
 #btn_enviar {
-	background-color: #ad039c;
+	background-color: $fontcolor;
 }
 
 #img_tulugar {
